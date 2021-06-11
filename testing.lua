@@ -1,7 +1,7 @@
 local NotificationLib = {}
 
-function NotificationLib:CreateNotification()
-    print("hi")
+function NotificationLib:CreateNotification(Message)
+    print(Message)
 end
 
 return NotificationLib
