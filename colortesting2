@@ -1,0 +1,12 @@
+local NotificationLib = {}
+
+function NotificationLib:CreateNotification(Color)
+    if Color == nil then
+        Color = Color3.fromRGB(170, 0, 255)
+    else
+        Color = Color
+    end
+    print(Color)
+end
+
+return NotificationLib
